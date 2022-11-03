@@ -5,8 +5,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2%;
-    background-color: darkred;
+    background-color: darkblue;
     color: #fff;
+    max-height: 180px;
   }
 
 h1{ 
@@ -17,12 +18,30 @@ h1{
     min-width: auto;
 }
 
+h2{
+
+   font-size: 300%;
+   text-decoration: wavy;
+}
+
+h2 #canDo{
+    gap: 150px;
+}
+
+.banner{
+
+    display: block;
+    min-width: 100%;
+    max-height: 180px;
+}
+
 body {
     font-family: Arial;
     display: flex;
     flex-direction: column;
-    line-height: 1.6px;
 }
+
+
 
 nav ul {
     display: flex;
@@ -41,9 +60,10 @@ ul{
     
 }
 
-a:hover{
+nav a:hover{
     color: yellow;
-    
+    text-decoration: underline;
+
 }
 
 li{
@@ -53,19 +73,82 @@ li{
     
 }
 
-.container {
-    max-width: 1100px;
-    margin: top 0px;
-    overflow: auto;
+img{
+    max-width:100%;
 }
 
-main {
+main{
     display: flex;
-    flex: 1 1 0;
-    max-width: 1200px;
-    margin: 2% auto;
-  }
+    min-height: 1100px;
+}
 
 aside{
     display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    margin: 40px;
+    max-width: auto;
 }
+
+aside #aboutMe{
+    align-self: top;
+}
+
+p{
+    padding: 40px;
+}
+
+article{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-left-color: black;
+    border-width: 4px;
+    border-left: solid;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+
+}
+
+article #canDo{
+
+    flex-wrap: wrap;
+}
+
+
+.projects {
+    flex: 1 0 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-top: 100px;
+  }
+
+
+#aboutMe{
+    max-block-size: 350px;
+}
+
+
+
+#canDo{
+    outline-color: aqua;
+}
+
+#contact{
+    color-scheme: red + blue;
+}
+
+
+footer{
+    
+    height: 60px;
+    width: fit-content;
+
+}
+
+

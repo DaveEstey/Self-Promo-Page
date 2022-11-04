@@ -167,10 +167,6 @@ img .project{
     transition: 0.5s
 }
 
-a .project{
- 
-}
-
 .flex{
     display: flex;
     flex-direction: column;
@@ -185,21 +181,20 @@ article ul {
 
 @media screen and (min-width: 600px) {
 
-        . {
-            width: 100%;
+        main {
+            width: 50%;
         }
     }
     
 @media screen and (min-width: 768px) {
-    //For Laptops
-        .container {
+
+        main {
             width: 738px;
         }
     }
     
 @media screen and (min-width: 992px) {
-    //For Large Laptops
-        .container {
-            width: 962px;
+        main {
+            width: 100%;
         }
     }

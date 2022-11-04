@@ -18,14 +18,14 @@ h1{
     min-width: auto;
 }
 
-h2{
-
+aside h2{
+    display: flex;
    font-size: 300%;
    text-decoration: wavy;
 }
 
-h2 #canDo{
-    gap: 150px;
+section h2{
+    align-items: flex-end;
 }
 
 .banner{
@@ -86,13 +86,9 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 40px;
     max-width: auto;
-}
-
-aside #aboutMe{
-    align-self: top;
 }
 
 p{
@@ -102,38 +98,36 @@ p{
 article{
     max-width: 100%;
     display: flex;
-    flex-direction: row;
     border-left-color: black;
     border-width: 4px;
     border-left: solid;
     align-items: center;
     padding-top: 20px;
     flex-wrap: wrap;
-    flex-basis: auto;
-
 }
 
-article #canDo{
-
-    flex-wrap: wrap;
+article #canDO{
+    flex-direction: row;
 }
 
-
-.projects {
-    flex: 1 0 200px;
+.project {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    padding-top: 100px;
+    
   }
 
 
 #aboutMe{
+    
     max-block-size: 350px;
 }
 
-
+aside #aboutMe{
+    
+    align-self: top;
+}
 
 #canDo{
     outline-color: aqua;
@@ -151,4 +145,11 @@ footer{
 
 }
 
+section{
+    border-width: 4px;
+    border-color: aqua;
+}
 
+.flex{
+    display:flex;
+}

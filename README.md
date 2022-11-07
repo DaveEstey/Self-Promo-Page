@@ -4,8 +4,7 @@
 ## Decription
 
 This project was used to better skills with Semantic HTML and integrating proper CSS into the code. Made from scratch, using flexbox's. This is to test skills on ordering and layout making.
-I learned that is is a very daunting task and to get overlay on flexbox's is a harder concept then I initailly thought.
-
+I learned that it is a very daunting task and to get overlay on flexbox's is a harder concept then I initailly thought. (Correction:While utilizing the "section" tag) it seems like the section tag does not allow the flex property.
 
 ## Installation
 
